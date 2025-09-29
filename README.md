@@ -41,11 +41,6 @@ De esta forma se simula el funcionamiento básico de aplicaciones de mensajería
 
 └── README.md # Documentación del proyecto
 
-# 💬 Chat en C con IPC (System V)
-
-Este proyecto implementa un sistema de chat simple en **C** utilizando colas de mensajes de **System V IPC**.  
-El servidor se encarga de crear y administrar salas de chat, mientras que los clientes pueden conectarse, crear salas, unirse a ellas y enviar mensajes a otros usuarios conectados.
-
 ---
 
 ## Compilación
