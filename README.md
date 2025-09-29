@@ -2,11 +2,11 @@
 
 ## Integrantes
 
--Santiago Álvarez Peña
+- Santiago Álvarez Peña
 
--Sebastián Giraldo Álvarez
+- Sebastián Giraldo Álvarez
 
--Juan Jose Vásquez Gómez
+- Juan Jose Vásquez Gómez
 
 ## Descripción
 
