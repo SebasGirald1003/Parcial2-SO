@@ -1,6 +1,12 @@
 # Sistema de Chat con Colas de Mensajes (IPC en C)
 
-## 📌 Descripción
+## Integrantes
+
+-Santiago Álvarez Peña
+-Sebastián Giraldo Álvarez
+-Juan Jose Vásquez Gómez
+
+## Descripción
 
 Este proyecto implementa un **sistema de chat multiusuario** en lenguaje **C**, utilizando **colas de mensajes System V** como mecanismo de **comunicación entre procesos (IPC)**.  
 
@@ -10,7 +16,7 @@ De esta forma se simula el funcionamiento básico de aplicaciones de mensajería
 
 ---
 
-## ⚙️ Características
+## Características
 
 - Servidor central que administra:
   - Creación de salas de chat.
@@ -25,4 +31,4 @@ De esta forma se simula el funcionamiento básico de aplicaciones de mensajería
 
 ---
 
-## 📂 Estructura del Proyecto
+## Estructura del Proyecto
