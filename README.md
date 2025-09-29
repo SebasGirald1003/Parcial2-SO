@@ -34,3 +34,7 @@ De esta forma se simula el funcionamiento básico de aplicaciones de mensajería
 ---
 
 ## Estructura del Proyecto
+
+├──servidor.c # Código fuente del servidor de chat
+├── cliente.c # Código fuente del cliente de chat
+└── README.md # Documentación del proyecto
