@@ -3,7 +3,9 @@
 ## Integrantes
 
 -Santiago Álvarez Peña
+
 -Sebastián Giraldo Álvarez
+
 -Juan Jose Vásquez Gómez
 
 ## Descripción
