@@ -78,6 +78,8 @@ struct mensaje {
 ## Explicación del Funcionamiento
 En el servidor, se implementan funciones clave como `crear_sala`, que genera nuevas salas de chat con su propia cola de mensajes utilizando `msgget()`, y `buscar_sala`, que permite comprobar si una sala ya existe. La función `agregar_usuario_a_sala` añade usuarios a una sala y registra su identificador `reply_to` (PID), permitiendo también la reconexión de un usuario si es necesario. Para enviar mensajes, `broadcast_a_sala` reenvía el contenido a todos los usuarios de una sala excepto al emisor, cambiando dinámicamente el `mtype` de acuerdo con el destinatario. La función `main` del servidor se encarga de crear la cola global, recibir mensajes de tipo `JOIN` o `MSG`, y gestionar tanto la creación de salas como la distribución de mensajes a los usuarios.
 
-En el cliente, la función `recibir_mensajes` funciona como un hilo receptor en segundo plano, escuchando continuamente los mensajes dirigidos al proceso mediante su identificador (`mytype = getpid()`) y mostrándolos en la terminal. La función main solicita al usuario un nombre de identificación, conecta el cliente a la cola global y gestiona la entrada de comandos. El usuario puede enviar `join <sala>` para solicitar unirse a una sala existente o crear una nueva, mientras que cualquier texto escrito en la terminal se envía como mensaje al servidor, que se encarga de distribuirlo a todos los miembros de la sala activa.
+## Link del video.
+
+https://youtu.be/miuw7Jao4aA
 
 
